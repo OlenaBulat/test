@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1">
+	<test name="Test1">
+		<groups>
+			<run>
+				<include name="secondTrialTest" />
+			</run>
+		</groups>
+		<classes>
+			<!--Class name = "package + class" -->
+			<class name="test.automation.MainTest" />
+		</classes>
+	</test>
+</suite>
